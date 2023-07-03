@@ -130,3 +130,25 @@ button:hover {
 span {
     color: #33A8DB;
 }
+
+/* section transform-world */
+
+#transform-world {
+    height: 363px;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#text-transform-world {
+    width: 305px;
+    font-size: 3.1rem;
+    font-weight: bolder;
+    padding: 110px 0px 0px 140px;
+    text-transform: lowercase;
+    line-height: 44px;
+    text-shadow: 3px 3px #33A8DB;
+    margin: 0rem;
+}
