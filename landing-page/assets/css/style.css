@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap');
 
-h1, h2, p, a, button, span, div {
+h1,
+h2,
+p,
+a,
+button,
+span,
+div {
     font-family: 'Raleway', sans-serif;
     color: white;
 }
@@ -9,6 +15,8 @@ body {
     background-color: #000;
 }
 
+
+/* header */
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url("../images/banner.png");
@@ -24,8 +32,6 @@ body {
     padding: 16px;
     margin-bottom: 1rem;
 }
-
-
 
 #banner-title {
     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
@@ -69,4 +75,58 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+
+
+/* section course-content */
+
+#course-content {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+    padding-bottom: 3rem;
+}
+
+#course-content-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+#course-content-description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    max-width: 840px;
+    margin: 0 auto 2rem;
+}
+
+.module {
+    width: 26rem;
+    border-radius: 57px;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    line-height: 1.5rem;
+    padding: 1rem 8rem 1rem 8rem;
+    margin: 0 auto 1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.module:hover {
+    transform: scale(1.1);
+}
+
+span {
+    color: #33A8DB;
 }
