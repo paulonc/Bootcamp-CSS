@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .container_header {
   display: flex;
   justify-content: space-between;
@@ -19,25 +21,137 @@
 }
 
 .search {
-    display: flex;
-    height: 30px;
-    align-items: center;
-    border: 2px solid #cccccc;
-    border-radius: 40px 40px 40px 40px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border: 2px solid #cccccc;
+  border-radius: 40px 40px 40px 40px;
 }
 
 #search_button {
-    width: 70px;
-    height: 30px;
-    border: none;
-    border-radius: 0px 40px 40px 0px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
 }
 
 #search_bar {
-    width: 400px;
-    height: 28px;
-    max-width: 400px;
-    border: none;
-    border-radius: 40px 0px 0px 40px;
-    outline: none;
+  width: 400px;
+  height: 28px;
+  max-width: 400px;
+  border: none;
+  border-radius: 40px 0px 0px 40px;
+  outline: none;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 54px;
+  padding-top: 10px;
+}
+
+.container_video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.title_video {
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.video_actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 902px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.channel_info {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  line-height: 16px;
+}
+
+.channel_info .channel_name {
+  font-weight: 900;
+  color: #000;
+}
+
+.channel_info .subscriber_count {
+  font-weight: 400;
+  color: #515151;
+}
+
+.action span {
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.subscribe_button {
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  background-color: #cc0000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.subscribe_button:hover {
+  background-color: #af0101;
+}
+
+.video_infos {
+  font-family: Roboto;
+  font-size: .9rem;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.video_description {
+  color: #515151;
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  width: 540px;
+  word-wrap: break-word;
 }
